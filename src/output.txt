@@ -1,0 +1,215 @@
+Summer 2023- Project 1 - Package Management Facility Simulator
+
+********* PACKAGE MANAGEMENT FACILITY SIMULATION BEGINS **********
+
+
+The parameters or this simulation run are:
+Routing Station S0 has total workload of 4 package groups.
+Routing Station S1 has total workload of 6 package groups.
+Routing Station S2 has total workload of 2 package groups.
+Routing Station S3 has total workload of 3 package groups.
+Routing Station S4 has total workload of 4 package groups.
+
+Routing Station S2: Currently holds lock on input conveyor C2.
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S0: Currently holds lock on input conveyor C0.
+Routing Station S3: Currently holds lock on input conveyor C3.
+Routing Station S2: UNABLE TO LOCK OUTPUT CONVEYOR C3.          
+SYNCHRONIZATION ISSUE: Station S3 currently holds the lock on output conveyor C3 – Station S2 releasing lock on input conveyor C2.
+Routing Station S0: UNABLE TO LOCK OUTPUT CONVEYOR C1.          
+SYNCHRONIZATION ISSUE: Station S1 currently holds the lock on output conveyor C1 – Station S0 releasing lock on input conveyor C0.
+Routing Station S4: UNABLE TO LOCK OUTPUT CONVEYOR C5.          
+SYNCHRONIZATION ISSUE: Station S5 currently holds the lock on output conveyor C5 – Station S4 releasing lock on input conveyor C4.
+Routing Station S1: UNABLE TO LOCK OUTPUT CONVEYOR C2.          
+SYNCHRONIZATION ISSUE: Station S2 currently holds the lock on output conveyor C2 – Station S1 releasing lock on input conveyor C1.
+Routing Station S3: UNABLE TO LOCK OUTPUT CONVEYOR C4.          
+SYNCHRONIZATION ISSUE: Station S4 currently holds the lock on output conveyor C4 – Station S3 releasing lock on input conveyor C3.
+Routing Station S2: Unlocks/releases input conveyor C2.
+Routing Station S0: Unlocks/releases input conveyor C0.
+Routing Station S1: Unlocks/releases input conveyor C1.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S3: Unlocks/releases input conveyor C3.
+Routing Station S0: Currently holds lock on input conveyor C0.
+Routing Station S0: Currently holds lock on output conveyor C1.
+
+* * Routing Station S0: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S3: Currently holds lock on input conveyor C3.
+Routing Station S3: Currently holds lock on output conveyor C4.
+
+* * Routing Station S3: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S0: Package group completed - 3 package groups remaining to move
+Routing Station S0: Unlocks/releases output conveyor C1.
+Routing Station S0: Unlocks/releases input conveyor C0.
+Routing Station S0: Currently holds lock on input conveyor C0.
+Routing Station S0: Currently holds lock on output conveyor C1.
+
+* * Routing Station S0: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S2: Currently holds lock on input conveyor C2.
+Routing Station S2: UNABLE TO LOCK OUTPUT CONVEYOR C3.          
+SYNCHRONIZATION ISSUE: Station S3 currently holds the lock on output conveyor C3 – Station S2 releasing lock on input conveyor C2.
+Routing Station S2: Unlocks/releases input conveyor C2.
+Routing Station S3: Package group completed - 2 package groups remaining to move
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S3: Unlocks/releases output conveyor C4.
+Routing Station S3: Unlocks/releases input conveyor C3.
+Routing Station S4: UNABLE TO LOCK OUTPUT CONVEYOR C5.          
+SYNCHRONIZATION ISSUE: Station S5 currently holds the lock on output conveyor C5 – Station S4 releasing lock on input conveyor C4.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S0: Package group completed - 2 package groups remaining to move
+Routing Station S0: Unlocks/releases output conveyor C1.
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S0: Unlocks/releases input conveyor C0.
+Routing Station S1: Currently holds lock on output conveyor C2.
+
+* * Routing Station S1: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: Currently holds lock on output conveyor C5.
+
+* * Routing Station S4: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S1: Package group completed - 5 package groups remaining to move
+Routing Station S1: Unlocks/releases output conveyor C2.
+Routing Station S1: Unlocks/releases input conveyor C1.
+Routing Station S3: Currently holds lock on input conveyor C3.
+Routing Station S3: UNABLE TO LOCK OUTPUT CONVEYOR C4.          
+SYNCHRONIZATION ISSUE: Station S4 currently holds the lock on output conveyor C4 – Station S3 releasing lock on input conveyor C3.
+Routing Station S3: Unlocks/releases input conveyor C3.
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S1: Currently holds lock on output conveyor C2.
+
+* * Routing Station S1: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S4: Package group completed - 3 package groups remaining to move
+Routing Station S4: Unlocks/releases output conveyor C5.
+Routing Station S0: Currently holds lock on input conveyor C0.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S0: UNABLE TO LOCK OUTPUT CONVEYOR C1.          
+SYNCHRONIZATION ISSUE: Station S1 currently holds the lock on output conveyor C1 – Station S0 releasing lock on input conveyor C0.
+Routing Station S0: Unlocks/releases input conveyor C0.
+Routing Station S1: Package group completed - 4 package groups remaining to move
+Routing Station S2: Currently holds lock on input conveyor C2.
+Routing Station S1: Unlocks/releases output conveyor C2.
+Routing Station S2: Currently holds lock on output conveyor C3.
+Routing Station S1: Unlocks/releases input conveyor C1.
+
+* * Routing Station S2: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S0: Currently holds lock on input conveyor C0.
+Routing Station S0: Currently holds lock on output conveyor C1.
+
+* * Routing Station S0: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: UNABLE TO LOCK OUTPUT CONVEYOR C5.          
+SYNCHRONIZATION ISSUE: Station S5 currently holds the lock on output conveyor C5 – Station S4 releasing lock on input conveyor C4.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S2: Package group completed - 1 package groups remaining to move
+Routing Station S3: Currently holds lock on input conveyor C3.
+Routing Station S2: Unlocks/releases output conveyor C3.
+Routing Station S3: Currently holds lock on output conveyor C4.
+Routing Station S2: Unlocks/releases input conveyor C2.
+
+* * Routing Station S3: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S3: Package group completed - 1 package groups remaining to move
+Routing Station S3: Unlocks/releases output conveyor C4.
+Routing Station S3: Unlocks/releases input conveyor C3.
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: UNABLE TO LOCK OUTPUT CONVEYOR C5.          
+SYNCHRONIZATION ISSUE: Station S5 currently holds the lock on output conveyor C5 – Station S4 releasing lock on input conveyor C4.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: UNABLE TO LOCK OUTPUT CONVEYOR C5.          
+SYNCHRONIZATION ISSUE: Station S5 currently holds the lock on output conveyor C5 – Station S4 releasing lock on input conveyor C4.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S2: Currently holds lock on input conveyor C2.
+Routing Station S2: Currently holds lock on output conveyor C3.
+
+* * Routing Station S2: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S0: Package group completed - 1 package groups remaining to move
+Routing Station S0: Unlocks/releases output conveyor C1.
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S0: Unlocks/releases input conveyor C0.
+Routing Station S1: UNABLE TO LOCK OUTPUT CONVEYOR C2.          
+SYNCHRONIZATION ISSUE: Station S2 currently holds the lock on output conveyor C2 – Station S1 releasing lock on input conveyor C1.
+Routing Station S1: Unlocks/releases input conveyor C1.
+Routing Station S0: Currently holds lock on input conveyor C0.
+Routing Station S0: Currently holds lock on output conveyor C1.
+
+* * Routing Station S0: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: UNABLE TO LOCK OUTPUT CONVEYOR C5.          
+SYNCHRONIZATION ISSUE: Station S5 currently holds the lock on output conveyor C5 – Station S4 releasing lock on input conveyor C4.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S2: Package group completed - 0 package groups remaining to move
+Routing Station S2: Unlocks/releases output conveyor C3.
+Routing Station S3: Currently holds lock on input conveyor C3.
+Routing Station S2: Unlocks/releases input conveyor C2.
+Routing Station S3: Currently holds lock on output conveyor C4.
+
+* * Routing Station S3: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S0: Package group completed - 0 package groups remaining to move
+Routing Station S0: Unlocks/releases output conveyor C1.
+Routing Station S0: Unlocks/releases input conveyor C0.
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S1: Currently holds lock on output conveyor C2.
+
+* * Routing Station S1: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S1: Package group completed - 3 package groups remaining to move
+Routing Station S1: Unlocks/releases output conveyor C2.
+Routing Station S1: Unlocks/releases input conveyor C1.
+
+# # Station S0: Workload successfully completed. - - - Station S0 preparing to go offline. # #
+
+# # Station S2: Workload successfully completed. - - - Station S2 preparing to go offline. # #
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S1: Currently holds lock on output conveyor C2.
+
+* * Routing Station S1: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S1: Package group completed - 2 package groups remaining to move
+Routing Station S1: Unlocks/releases output conveyor C2.
+Routing Station S1: Unlocks/releases input conveyor C1.
+Routing Station S3: Package group completed - 0 package groups remaining to move
+Routing Station S3: Unlocks/releases output conveyor C4.
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: Currently holds lock on output conveyor C5.
+Routing Station S3: Unlocks/releases input conveyor C3.
+
+* * Routing Station S4: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+
+# # Station S3: Workload successfully completed. - - - Station S3 preparing to go offline. # #
+Routing Station S4: Package group completed - 2 package groups remaining to move
+Routing Station S4: Unlocks/releases output conveyor C5.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: Currently holds lock on output conveyor C5.
+
+* * Routing Station S4: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S4: Package group completed - 1 package groups remaining to move
+Routing Station S4: Unlocks/releases output conveyor C5.
+Routing Station S4: Unlocks/releases input conveyor C4.
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S1: Currently holds lock on output conveyor C2.
+
+* * Routing Station S1: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S1: Package group completed - 1 package groups remaining to move
+Routing Station S1: Unlocks/releases output conveyor C2.
+Routing Station S1: Unlocks/releases input conveyor C1.
+Routing Station S4: Currently holds lock on input conveyor C4.
+Routing Station S4: Currently holds lock on output conveyor C5.
+
+* * Routing Station S4: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S1: Currently holds lock on input conveyor C1.
+Routing Station S1: Currently holds lock on output conveyor C2.
+
+* * Routing Station S1: * * CURRENTLY HARD AT WORK MOVING PACKAGES. * *
+Routing Station S1: Package group completed - 0 package groups remaining to move
+Routing Station S1: Unlocks/releases output conveyor C2.
+Routing Station S1: Unlocks/releases input conveyor C1.
+Routing Station S4: Package group completed - 0 package groups remaining to move
+Routing Station S4: Unlocks/releases output conveyor C5.
+Routing Station S4: Unlocks/releases input conveyor C4.
+
+# # Station S1: Workload successfully completed. - - - Station S1 preparing to go offline. # #
+
+# # Station S4: Workload successfully completed. - - - Station S4 preparing to go offline. # #
+
+**ALL WORKLOADS COMPLETE PACKAGE MANAGEMENT FACILITY SIMULATION TERMINATES***********
+
+****** SIMULATION ENDS ******
